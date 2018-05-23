@@ -1,0 +1,29 @@
+﻿{
+  "microServices": [
+    {
+      "gitRepo": "https://github.com/Example/example.git",
+      "gitRepoBranch": "dev",
+      "projectPath": "MySolutionFolder/MyProject.csproj",
+      "aspNetCoreEnvironment": "local", 
+      "configOverrides": [
+      ]
+    }
+  ],
+  "globalConfigOverrides": [
+    {
+      "propertySelector": "Connection.CatalogSuffix",
+      "propertyValue": "",
+      "operation": "modify"
+    }
+    //,{
+    //  "propertySelector": "Connection.CatalogSuffix",
+    //  "operation": "delete"
+    //}
+    //,{
+    //  "propertySelector": "Connection",
+    //  "propertyName": "CatalogSuffix",
+    //  "propertyValue": 1,
+    //  "operation": "add"
+    //}
+  ]
+}
